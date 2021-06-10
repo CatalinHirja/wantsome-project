@@ -240,15 +240,6 @@ footer .container {
           justify-content: space-between;
 }
 
-footer li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 footer ul {
   padding-top: 20px;
   display: -webkit-box;
