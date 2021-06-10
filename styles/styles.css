@@ -223,4 +223,48 @@ ul {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 0, 0, 0))), url("../images/desktop/image-fisheye.jpg");
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0) 100%), url("../images/desktop/image-fisheye.jpg");
 }
+
+footer {
+  width: 100%;
+  margin-top: 150px;
+  background-color: black;
+  color: white;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
+
+footer .footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
